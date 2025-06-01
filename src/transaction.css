@@ -1,0 +1,8 @@
+/* transaction.css */
+
+.custom-table .ant-table-thead > tr > th {
+  background-color: #1890ff; /* Change this to your preferred color */
+  color: white;
+  font-weight: bold;
+}
+
