@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+Budget Tracker Web App.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+I used Python Djnago as the backend and React.js as the frontend.
 
-### `npm start`
+Database used is Db sqlite
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To run my web app For backend go to the path in cmd and type "python manage.py runserver"
+To run frontend go to the path in cmd and type "npm start"
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+to install dependencies for frontend use "npm install"
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+TEST USER LOGIN
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+username: admin
+password: Admin@123
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+for creating a super user "python manage.py createsuperuser"
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+now enter username ,email and password
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+How the app works is,
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+First the user have to login
 
-## Learn More
+if successfully login then Will show the Dashboard. In the dashboard we can see Transactions,Budget Overview and summary
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+in Transactions it shows the transactions occurred and also can create transactions . The datetime will be choosen as the current datetime automatically when the entry is added.
+we can filter the data by entering any key related to the item shown in the table
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+in Budget overview it lists the transactions occurred according to the year and month.
+we can filter the data by entering any key related to the item shown in the table
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+in the summary the current month data is loaded when the dashboard is appeared and also we can filter the data according to the year and month
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
